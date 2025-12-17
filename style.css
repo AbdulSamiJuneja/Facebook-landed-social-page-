@@ -1,8 +1,195 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
-    font-family:Arial;
+    font-family: Arial;
 }
-body{
+
+body {
     background-color: #f1f2f6;
 }
+
+main {
+    min-height: 100vh;
+    /* padding: 0px 11.4%; */
+    display: flex;
+    justify-content: center;
+}
+
+/* box 1 start */
+
+li {
+    list-style: none;
+}
+
+.box1 {
+    margin: 30px 0px;
+    height: 1150px;
+    width: 980px;
+    min-height: 100vh;
+    background-color: white;
+    border: 0.8px solid #dddddd;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+}
+
+/* 1 li stated */
+#box1-lists {
+    position: relative;
+    right: 30px;
+}
+
+.userimage-info {
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.user-name {
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.post-date {
+    color: #6b6b7d;
+    font-weight: 100;
+}
+
+/* 2 li stated */
+
+.heading-img-of-place h3 {
+    font-weight: 700;
+    margin: 18px 0px;
+}
+
+.heading-img-of-place p {
+    margin: 15px 0px;
+}
+
+.heading-img-of-place img {
+    width: 100%;
+}
+
+/* 3 li stated */
+
+.after-img-info {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+    border-bottom: 2px solid #cfcfd1;
+    height: 60px;
+}
+
+.after-img-left-p {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #2270d5;
+}
+
+.after-img-right-p {
+    height: 40px;
+    color: white;
+    background-color: #2270d5;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 0px 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* 4 li stated */
+
+.like-share-counts {
+    margin: 20px 0px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #cfcfd1;
+}
+
+.like-heart-img {
+    display: flex;
+    align-items: center;
+}
+
+.like-heart-img img {
+    height: 20px;
+}
+
+.like-heart-img p {
+    margin-left: 5px;
+    color: #6b6b7d;
+}
+
+.share-count p {
+    color: #6b6b7d;
+}
+
+/* 5 li stated */
+
+.like-comment-share-icon {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #cfcfd1;
+    margin: 20px 0px;
+}
+
+.like-comment-share-icon>div{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#6b6b7d;
+}
+
+.like-comment-share-icon>div>img{
+    height:25px;
+}
+
+/* 6 li stated */
+
+.user-img-comments-area{
+    display:flex;
+    align-items:center;
+}
+
+.comments-area{
+    height:50px;
+    background-color:#f4f5f9;
+    border-radius:25px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
+    padding:0px 20px;
+    margin-left:20px;
+}
+
+.icon-lol-gallery{
+    display:flex;
+}
+
+.icon-lol-gallery img{
+    height:15px;
+}
+
+/* user images css */
+
+.top-user-image {
+    height: 65px;
+    border-radius: 50%;
+}
+
+.bottom-user-image {
+    height: 45px;
+    border-radius: 50%;
+}
+
+/* box 1 complated */
