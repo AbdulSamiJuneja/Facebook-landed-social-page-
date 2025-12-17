@@ -9,10 +9,9 @@ body {
 }
 
 main {
-    min-height: 100vh;
-    /* padding: 0px 11.4%; */
-    display: flex;
-    justify-content: center;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* box 1 start */
@@ -21,10 +20,8 @@ li {
     list-style: none;
 }
 
-.box1 {
+.box {
     margin: 30px 0px;
-    height: 1150px;
-    width: 980px;
     min-height: 100vh;
     background-color: white;
     border: 0.8px solid #dddddd;
@@ -34,7 +31,10 @@ li {
 }
 
 /* 1 li stated */
+
 #box1-lists {
+    width: 980px;
+    height: 1150px;
     position: relative;
     right: 30px;
 }
@@ -193,3 +193,46 @@ li {
 }
 
 /* box 1 complated */
+
+/* box 2 */
+
+#box2-lists {
+    position: relative;
+    right: 30px;
+    width: 1010px;
+    height: 1150px;
+}
+
+/* box 3 */
+
+#box3-lists {
+    position: relative;
+    right: 30px;
+    width: 1010px;
+    height: 1150px;
+}
+
+/* footer */
+
+footer{
+    height:50px;
+    background-color: #cfcfd1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+footer a{
+    text-decoration: none;
+    color:Black;
+    font-size:18px;
+    text-transform: uppercase;
+    padding:15px;
+}
+
+footer a:hover{
+    color:white;
+    background-color:black;
+    text-decoration: underline;
+    padding:15px;
+}
